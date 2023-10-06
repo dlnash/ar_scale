@@ -1,0 +1,13 @@
+name: ar_scale
+channels:
+  - conda-forge
+  - defaults  
+dependencies:
+  - python
+  - pip
+  - numpy
+  - pandas
+  - netcdf4
+  - xarray
+  - ipykernel
+
