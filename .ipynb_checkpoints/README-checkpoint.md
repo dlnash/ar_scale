@@ -15,7 +15,7 @@ conda env create -f environment.yml
 **Activate the new environment:**
 
 ```bash
-conda activate env-name
+conda activate ar_scale
 ```
 
 **Install python kernel for Jupyter Lab**
@@ -23,7 +23,7 @@ conda activate env-name
 Now we will install a kernel named “Python (env-name)” for JupyterLab. The kernel provides the programming language support in Jupyter and allows you to run cells in a notebook. We will create a kernel that uses our conda environment as the programming language. 
 
 ```bash
-python -m ipykernel install --user --name env-name --display-name "Python (penv-name)"
+python -m ipykernel install --user --name env-name --display-name "Python (ar_scale)"
 ```
 
 The `--name` value is used by Jupyter internally. These commands will overwrite any existing kernel with the same name. `--display-name`
